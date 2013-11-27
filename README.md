@@ -1,6 +1,8 @@
 ## ox_cdata_xml_parser ##
+---------------------------------------
 
-    This will help to parse xml having cdata.Ox_xml parser returns complete hash structure of each parent tag you have specified in <parent_tag> to next_element method.You can write validation in valid method.Write your code to process hash_obj.
+This will help to parse xml having cdata.Ox_xml parser returns complete hash structure of each parent tag you have 
+specified in <parent_tag> to next_element method.You can write validation in valid method.Write your code to process hash_obj.
 
 ### test.xml ###
 
