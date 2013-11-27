@@ -46,21 +46,21 @@ This will help to parse xml having cdata.Ox_xml parser returns complete hash str
 
 ### parse_xml_file.rb ###
 
-
   class ParseXmlFile
+
     def valid? hash_obj
-    #    return true or false
+      #    return true or false
     end
 
     def run
-    parser = XmlParsing::Reader.new("/home/chetan/test.xml","item", self)
-    @count = parser.count
-    parser.parse
+      parser = XmlParsing::Reader.new("/home/chetan/test.xml","item", self)
+      @count = parser.count
+      parser.parse
     end
 
     def next_element hash_obj
-    return unless valid? hash_obj
-    # write your code here
+      return unless valid? hash_obj
+      # write your code here
     end
 
-  end
+end
