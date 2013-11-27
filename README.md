@@ -6,14 +6,14 @@ This will help to parse xml having cdata.Ox_xml parser returns complete hash str
 ### test.xml ###
 
   <?xml version="1.0" encoding="UTF-8"?>
-  <sammple>
-    <item>
-      <modelno>1001</modelno>
-      <price><![CDATA[1595]]></price>
-      <date><![CDATA[13/05/2013]]></date>
-      <time><![CDATA[05:11]]></time>
-      </item>
-  </sample>
+    <sammple>
+      <item>
+        <modelno>1001</modelno>
+        <price><![CDATA[1595]]></price>
+        <date><![CDATA[13/05/2013]]></date>
+        <time><![CDATA[05:11]]></time>
+        </item>
+    </sample>
 
 ### hash_obj ###
 
@@ -47,7 +47,6 @@ This will help to parse xml having cdata.Ox_xml parser returns complete hash str
 ### parse_xml_file.rb ###
 
   class ParseXmlFile
-
     def valid? hash_obj
       #    return true or false
     end
@@ -62,5 +61,4 @@ This will help to parse xml having cdata.Ox_xml parser returns complete hash str
       return unless valid? hash_obj
       # write your code here
     end
-
   end
